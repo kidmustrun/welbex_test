@@ -1,24 +1,18 @@
 # welbex
 
-## Project setup
+## Установка зависимостей
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Запуск frontend
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Запуск backend (в отдельном терминале)
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+node server.js
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### В корне проекта также находится дамп базы данных, конфигурация бд прописана в server/config/db.config.js
